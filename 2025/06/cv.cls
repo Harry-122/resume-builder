@@ -1,5 +1,5 @@
 % Intro Options
-\ProvidesClass{resumebb}[2025/06/01 CV class]
+\ProvidesClass{cv}[2025/06/01 CV class]
 \NeedsTeXFormat{LaTeX2e}
 \LoadClass{article}
 
