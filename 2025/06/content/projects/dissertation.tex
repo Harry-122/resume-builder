@@ -1,0 +1,11 @@
+% Dissertation
+\vspace{3pt}
+\runsubsection{Natural Language to EMFatic using Transformer Models}
+\descript{| Python, Transformers, CodeT5, EMF, BLEU}
+\location{February 2025 – May 2025}
+\begin{tightemize}
+    \item Built a 4,000+ sample dataset by extracting Ecore models from the ModelSet corpus, converting to EMFatic using custom XML parsers, and generating natural language descriptions using both synthetic rule-based templates and LLMs.
+    \item Integrated quantized versions of CodeLLaMA, Mistral, and CodeGemma to locally generate EMFatic descriptions, enabling comparison of LLM quality and reducing hallucinations by over 30\% versus template-only generation strategies.
+    \item Fine-tuned CodeT5-small and CodeT5-base models for generating EMFatic syntax code from natural language, with base model achieving 56.7 BLEU, 0.71 METEOR, and 0.80 ROUGE-1 on 500 test samples, significantly outperforming the small variant.
+    \item Developed a modular Python framework to orchestrate model training, inference, and evaluation with BLEU, METEOR, and ROUGE metrics, including web-based inference via Flask to demonstrate NL-to-EMFatic generation on unseen examples.
+\end{tightemize}

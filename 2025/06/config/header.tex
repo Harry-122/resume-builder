@@ -1,0 +1,21 @@
+% Header
+\IfFileExists{config/private.tex}{
+  \input{config/private.tex}
+}{
+  \input{config/public.tex}
+}
+
+\namesection{\NAME}{\ADDRESS}
+
+\contactline{
+  LinkedIn: \href{\LINKEDINURL}{\LINKEDINNAME}
+}{
+  Email: \href{mailto:\EMAIL}{\EMAIL}
+}{
+  Phone: \href{\PHONELINK}{\PHONE}
+}{
+  GitHub: \href{\GITHUBURL}{\GITHUBNAME}
+}
+
+\vspace{-6pt}
+\hrule width \textwidth height 1pt
