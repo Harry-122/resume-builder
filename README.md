@@ -4,8 +4,8 @@ This project is for building modular LaTeX resume using a custom `.cls` class fi
 
 ## 📁 Structure
 
-- `main.tex`: Main entry file
-- `main.cls`: Class file for styling
+- `cv.tex`: Main entry file
+- `cv.cls`: Class file for styling
 - `content/`: Sections like education, experience
 - `config/public.tex`: Dummy info file
 
@@ -14,7 +14,7 @@ This project is for building modular LaTeX resume using a custom `.cls` class fi
 1. Clone the repo
 2. Copy `config/public.tex` → `private.tex`
 3. Fill in your real contact details
-4. Run `xelatex main.tex`
+4. Run `xelatex cv.tex`
 
 ## 🔐 Privacy Note
 
