@@ -30,9 +30,9 @@
 \newcommand{\namesection}[2]{
 \begin{center}
     {\color{title} \fontsize{24pt}{30pt} \fontspec{Arial}\selectfont #1} \\
-    \vspace{5pt}
+    \vspace{4pt}
     {\color{subheadings} \fontsize{10pt}{12pt} \fontspec{Arial}\selectfont #2}
-    \vspace{-5pt}
+    \vspace{-3pt}
 \end{center}
 }
 
